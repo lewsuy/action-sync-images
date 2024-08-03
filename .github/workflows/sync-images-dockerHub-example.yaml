@@ -17,7 +17,7 @@ jobs:
       uses: docker/setup-buildx-action@v2
 
     - name: Log in to Docker Hub
-      run: echo "${{ secrets.lew.19880817 }}" | docker login --username ${{ secrets.lewsuy }} --password-stdin
+      run: echo "${{lew.19880817}}" | docker login --username ${{lewsuy}} --password-stdin
 
     - name: Log in to Local Registry
       run: echo "${{ secrets.Apaas2023# }}" | docker login registry-crs-xinan1.ctyun.cn --username ${{ secrets.t100002-hubuser }} --password-stdin
